@@ -1,0 +1,22 @@
+node_modules/
+/dist/
+
+# Ignore environment variables file
+.env
+
+# Ignore editor and IDE specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore logs and other generated files
+logs/
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db

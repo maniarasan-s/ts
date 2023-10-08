@@ -1,0 +1,11 @@
+{
+  "watch": ["src"],
+  "exec": "ts-node ./src/index.ts",
+  "ignore": ["src/**/*.test.ts", "node_modules", ".git"],
+  "ext": "ts,js,json",
+  "restartable": "rs",
+  "delay": "2500",
+  "stdin": "true",
+  "stdout": "true",
+  "stderr": "true"
+}
